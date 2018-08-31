@@ -289,7 +289,7 @@ static CGFloat displayWidth() {
     UIButton* del = [UIButton buttonWithType:UIButtonTypeCustom];
     [del setFrame:frame];
     del.exclusiveTouch = YES;
-    NSString *path = [[NSBundle mainBundle]pathForResource:@"Frameworks/MMPasswordKeyBoard.framework/MMPasswordKeyBoard.bundle/PwdKB.bundle" ofType:nil];
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"MMPasswordKeyBoard.bundle/PwdKB.bundle" ofType:nil];
     NSBundle *bundle = [NSBundle bundleWithPath:path];
     NSString *file = [bundle pathForResource:@"KeyboardDelete@3x" ofType:@"png"];
     UIImage *image = [UIImage imageWithContentsOfFile:file];
