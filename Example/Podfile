@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MMPasswordKeyBoard_Example' do
+  pod 'MMPasswordKeyBoard', :path => '../'
+
+  target 'MMPasswordKeyBoard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
