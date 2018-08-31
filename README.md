@@ -3,7 +3,7 @@
 支持键盘混乱
 使用AES加密数据
 
-[![IMG_0005.png](https://s22.postimg.cc/bgo3vji5d/IMG_0005.png)](https://postimg.cc/image/wqbq6dyfx/)
+[![IMG_0007.png](https://s22.postimg.cc/h3y8y0z1d/IMG_0007.png)](https://postimg.cc/image/9b7l61t25/)
 
-[![IMG_0006.png](https://s22.postimg.cc/bhy1oi9k1/IMG_0006.png)](https://postimg.cc/image/ua9ws35y5/)
+[![IMG_0008.png](https://s22.postimg.cc/dkcb89m1t/IMG_0008.png)](https://postimg.cc/image/uxmln4hct/)
 

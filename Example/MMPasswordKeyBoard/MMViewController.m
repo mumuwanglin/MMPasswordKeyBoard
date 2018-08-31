@@ -25,7 +25,7 @@
      @param security 是否混乱键盘
      
      */
-    MMPassWordTextField *pwdTF = [[MMPassWordTextField alloc]initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 132, self.view.frame.size.height / 2 - 60, 264, 44) needDoneButton:NO isSecurity:YES];
+    MMPassWordTextField *pwdTF = [[MMPassWordTextField alloc]initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 132, self.view.frame.size.height / 2 - 60, 264, 44) needDoneButton:YES isSecurity:YES];
     pwdTF.ptfDelegate = self;
     [self.view addSubview:pwdTF];
 }

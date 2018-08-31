@@ -43,7 +43,7 @@
     CGFloat width = self.frame.size.width / kDotCount;
     //生成分割线
     for (int i = 0; i < kDotCount - 1; i++) {
-        UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake((i + 1) * width, 0, 1, K_Field_Height)];
+        UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake((i + 1) * width, 0, 1.5, K_Field_Height)];
         lineView.backgroundColor = [UIColor grayColor];
         [self addSubview:lineView];
     }

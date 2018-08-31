@@ -15,7 +15,7 @@
 #define RGB(X,Y,Z) [UIColor colorWithRed:X/255.0 green:Y/255.0 blue:Z/255.0 alpha:1]
 #define RGBa(X,Y,Z,a) [UIColor colorWithRed:X/255.0 green:Y/255.0 blue:Z/255.0 alpha:a]
 
-#define UPColor_Line_Keyboard                       RGB(0xee,0xee,0xee)
+#define UPColor_Line_Keyboard                       RGB(204,208,214)
 #define UPColor_Keyboard_Normal                     RGB(0x33,0x33,0x33)
 #define UPColor_Keyboard_HighLighted                RGB(0x66,0x66,0x66)
 #define UPColor_Keyboard_Background_Normal          RGB(0xff,0xff,0xff)
