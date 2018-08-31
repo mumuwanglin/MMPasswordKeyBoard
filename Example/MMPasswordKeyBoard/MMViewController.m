@@ -7,23 +7,36 @@
 //
 
 #import "MMViewController.h"
+#import <MMPasswordKeyBoard/MMPassWordTextField.h>
 
-@interface MMViewController ()
+@interface MMViewController ()<MMPassWordTextFieldDegegate>
 
 @end
 
 @implementation MMViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    /**
+     初始化方法
+     
+     @param frame 设置大小
+     @param needDoneButton 是否需要完成键盘
+     @param security 是否混乱键盘
+     
+     */
+    MMPassWordTextField *pwdTF = [[MMPassWordTextField alloc]initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 132, self.view.frame.size.height / 2 - 60, 264, 44) needDoneButton:NO isSecurity:YES];
+    pwdTF.ptfDelegate = self;
+    [self.view addSubview:pwdTF];
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark- MMPassWordTextFieldDegegate
+- (void)getKeyBoardData:(NSString *)keyBoardData{
+    NSLog(@"%@",keyBoardData);
 }
-
+- (void)doneClick:(NSString *)resultStr{
+    NSLog(@"%@",resultStr);
+}
+- (void)deleteClickKeyboard:(id)keyboard{
+    NSLog(@"%@",keyboard);
+}
 @end

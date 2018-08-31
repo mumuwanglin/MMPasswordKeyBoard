@@ -1,0 +1,894 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C17BC08934C16E196FCEE59C21FD952 /* UIImage+UPTImage.h in Headers */ = {isa = PBXBuildFile; fileRef = A7DF2B43A5758479713E4CDC2810FC56 /* UIImage+UPTImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C55EC976ECAEBEA1CA9B31EE1927E85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		143BE333F5724270279B3F9453B65856 /* MMPassWordTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE711EB92AF10ED8F3F23DDF36BCA4D /* MMPassWordTextField.m */; };
+		1AE0F04AFA124056E2A9AA5051EC20F9 /* UPPLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D71F51EA487DFB6BDE4C0787E6DADE /* UPPLineView.m */; };
+		217A5ADA4B4C96FBF2570899EDA5953B /* MMPasswordKeyBoard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 525A88C0DC6A78DDFE559D7767469185 /* MMPasswordKeyBoard.bundle */; };
+		308F0BBE283919EFE7CD7A13A08A5514 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3ACED91A8C1F33397EADC72FF1F56CB0 /* UPTKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E1CE685F76359B25F975A457F8D571 /* UPTKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FD89AD8B98C5E285B583DF539E22AB1 /* Pods-MMPasswordKeyBoard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 068CC4D2922E8DA73330DFD8CEB3F1F8 /* Pods-MMPasswordKeyBoard_Tests-dummy.m */; };
+		42EDBB6BC0D24AC018617DC388449004 /* Pods-MMPasswordKeyBoard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8761DC948306AEB5207B30BA5365645E /* Pods-MMPasswordKeyBoard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		696A184BA134D5769331DD95D45FB1B5 /* MMPassWordTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A2E96EC4185DCB021563DC70FC6A1B5 /* MMPassWordTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		944C20F5477130383CD651177C5361E7 /* UPTKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 133D351789F494AFCF0117B24F18008F /* UPTKeyboard.m */; };
+		A04B4EECF738D0B02E2C166B64C1A697 /* Pods-MMPasswordKeyBoard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B675CA39FB9FE580D00FEDD859C618E6 /* Pods-MMPasswordKeyBoard_Example-dummy.m */; };
+		AB104DDAFEAF56A7DC8F91453072B5CA /* Pods-MMPasswordKeyBoard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D59B5396D74CF16051E334E3A48271 /* Pods-MMPasswordKeyBoard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B640051748D864B1223DEDBA570B2741 /* UPPLineView.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F489ECFB5134AC7D0B55D5F20C7E20 /* UPPLineView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF8A3D6769795D2D3783CAC7421BF14D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DA00AFF4EBF2725B828E51A07472DC5C /* PwdKB.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 326C155DE8B9AE79A94947DA78246DDB /* PwdKB.bundle */; };
+		F1487176CC3E969E1C1AEB0E97994562 /* MMPasswordKeyBoard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 651A6379B67FF8366DB4F1A52C20B3C1 /* MMPasswordKeyBoard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA818B9612DBDEB1796269D043EA295B /* MMPasswordKeyBoard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 605F78ABAE763884D27F24E878938F62 /* MMPasswordKeyBoard-dummy.m */; };
+		FF68A65ADCCAA3077EF6E718C07E07AF /* UIImage+UPTImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D3299BC547B7462D3E44C23F456DAB /* UIImage+UPTImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90DA37F93F3DADBE12F7265FFD3C30B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA442DC938D512113F6484EFF2F9C42;
+			remoteInfo = "Pods-MMPasswordKeyBoard_Example";
+		};
+		A0BB94F0525908E0AD353B5F9140BF3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F55264AEE2D1D1CBD590BDB50728AD6;
+			remoteInfo = MMPasswordKeyBoard;
+		};
+		DCCE75171052EC205775927ABADFA2FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F337BE8800D93165C3B460D5355BC00;
+			remoteInfo = "MMPasswordKeyBoard-MMPasswordKeyBoard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068CC4D2922E8DA73330DFD8CEB3F1F8 /* Pods-MMPasswordKeyBoard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMPasswordKeyBoard_Tests-dummy.m"; sourceTree = "<group>"; };
+		0F80E591513F17ABEE09FCAFDA8EBFD5 /* Pods-MMPasswordKeyBoard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPasswordKeyBoard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		133D351789F494AFCF0117B24F18008F /* UPTKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UPTKeyboard.m; path = MMPasswordKeyBoard/Classes/UPTKeyboard.m; sourceTree = "<group>"; };
+		28F489ECFB5134AC7D0B55D5F20C7E20 /* UPPLineView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPPLineView.h; path = MMPasswordKeyBoard/Classes/UPPLineView.h; sourceTree = "<group>"; };
+		326C155DE8B9AE79A94947DA78246DDB /* PwdKB.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = PwdKB.bundle; path = MMPasswordKeyBoard/Assets/PwdKB.bundle; sourceTree = "<group>"; };
+		342C3240958FC44820436C6C3E2F4306 /* Pods-MMPasswordKeyBoard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPasswordKeyBoard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		42AC105778012B509A08E977AAB44E47 /* Pods-MMPasswordKeyBoard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMPasswordKeyBoard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E088961CFDC9287FF6956032716547E /* Pods-MMPasswordKeyBoard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPasswordKeyBoard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		506256B601E66D1788DD7400AEACAE18 /* Pods-MMPasswordKeyBoard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPasswordKeyBoard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		525A88C0DC6A78DDFE559D7767469185 /* MMPasswordKeyBoard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MMPasswordKeyBoard.bundle; path = "MMPasswordKeyBoard-MMPasswordKeyBoard.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D59B5396D74CF16051E334E3A48271 /* Pods-MMPasswordKeyBoard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMPasswordKeyBoard_Example-umbrella.h"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A5BCBA718AABE12B42D91BBAE2ADA80 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605F78ABAE763884D27F24E878938F62 /* MMPasswordKeyBoard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMPasswordKeyBoard-dummy.m"; sourceTree = "<group>"; };
+		62A52724205338EDF4F00AB7825B2CD4 /* MMPasswordKeyBoard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPasswordKeyBoard-prefix.pch"; sourceTree = "<group>"; };
+		651A6379B67FF8366DB4F1A52C20B3C1 /* MMPasswordKeyBoard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPasswordKeyBoard-umbrella.h"; sourceTree = "<group>"; };
+		6B95866FDF2FFA8D3FE75B818218C0D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E1CE685F76359B25F975A457F8D571 /* UPTKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPTKeyboard.h; path = MMPasswordKeyBoard/Classes/UPTKeyboard.h; sourceTree = "<group>"; };
+		8761DC948306AEB5207B30BA5365645E /* Pods-MMPasswordKeyBoard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMPasswordKeyBoard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		88D71F51EA487DFB6BDE4C0787E6DADE /* UPPLineView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UPPLineView.m; path = MMPasswordKeyBoard/Classes/UPPLineView.m; sourceTree = "<group>"; };
+		891CB6412EE5490A4DF08E306CFD8E66 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8A5CD6F16A93130C4248AD7C27FDE119 /* MMPasswordKeyBoard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MMPasswordKeyBoard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8BF199D60275467BC043553816051A41 /* MMPasswordKeyBoard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMPasswordKeyBoard.framework; path = MMPasswordKeyBoard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9051E89D056E969667AA88D7E55958E0 /* ResourceBundle-MMPasswordKeyBoard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MMPasswordKeyBoard-Info.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		967A8FC786B22212E642FEF95D15D01D /* Pods-MMPasswordKeyBoard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPasswordKeyBoard_Example-resources.sh"; sourceTree = "<group>"; };
+		98CDBD3DC8EC6BA7E6A744B6E07603AD /* Pods-MMPasswordKeyBoard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMPasswordKeyBoard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9983D02D9AAD95691007050FFD3E6A6B /* Pods-MMPasswordKeyBoard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPasswordKeyBoard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9A2E96EC4185DCB021563DC70FC6A1B5 /* MMPassWordTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMPassWordTextField.h; path = MMPasswordKeyBoard/Classes/MMPassWordTextField.h; sourceTree = "<group>"; };
+		A27B02ECBF15469682E813BC11D957F7 /* MMPasswordKeyBoard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMPasswordKeyBoard.modulemap; sourceTree = "<group>"; };
+		A7DF2B43A5758479713E4CDC2810FC56 /* UIImage+UPTImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+UPTImage.h"; path = "MMPasswordKeyBoard/Classes/UIImage+UPTImage.h"; sourceTree = "<group>"; };
+		ABE711EB92AF10ED8F3F23DDF36BCA4D /* MMPassWordTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMPassWordTextField.m; path = MMPasswordKeyBoard/Classes/MMPassWordTextField.m; sourceTree = "<group>"; };
+		B675CA39FB9FE580D00FEDD859C618E6 /* Pods-MMPasswordKeyBoard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMPasswordKeyBoard_Example-dummy.m"; sourceTree = "<group>"; };
+		C2DD2F6BC25361E31EC5F2A427E0D6E0 /* Pods_MMPasswordKeyBoard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMPasswordKeyBoard_Example.framework; path = "Pods-MMPasswordKeyBoard_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64F471F6AB9766FC7C2DC72C6771D82 /* Pods-MMPasswordKeyBoard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMPasswordKeyBoard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2D3299BC547B7462D3E44C23F456DAB /* UIImage+UPTImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+UPTImage.m"; path = "MMPasswordKeyBoard/Classes/UIImage+UPTImage.m"; sourceTree = "<group>"; };
+		D7748E15F5FA3AD99526890FE4690DA3 /* Pods_MMPasswordKeyBoard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MMPasswordKeyBoard_Tests.framework; path = "Pods-MMPasswordKeyBoard_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7BAE36AFA8F1BD1EFA5372A80741C0 /* Pods-MMPasswordKeyBoard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMPasswordKeyBoard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF0EB25593EDDAFD5CE1D9665A4C349A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DF47ADD3A35F4DD02279F7E36F49DF48 /* Pods-MMPasswordKeyBoard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMPasswordKeyBoard_Tests.modulemap"; sourceTree = "<group>"; };
+		E439C5F6ECB269F5D1A7FE364A8E232B /* Pods-MMPasswordKeyBoard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPasswordKeyBoard_Tests-resources.sh"; sourceTree = "<group>"; };
+		F3153169EBEF6127A61CE7A7BC97ED61 /* MMPasswordKeyBoard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMPasswordKeyBoard.xcconfig; sourceTree = "<group>"; };
+		F4290BD716B6B4D45252BE0AB5B34A8C /* Pods-MMPasswordKeyBoard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPasswordKeyBoard_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F771E8E298ABE926A990197C12985404 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5E7202E2767208E797E600235521C3 /* Pods-MMPasswordKeyBoard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMPasswordKeyBoard_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2310FC3D479596F2164DD96FA183999E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8A3D6769795D2D3783CAC7421BF14D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5572772ADC90AAE4E234BE0852D47330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308F0BBE283919EFE7CD7A13A08A5514 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694052A43787A4C6AA2D434273F90368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C55EC976ECAEBEA1CA9B31EE1927E85 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6DE0DE592E0BD3E621639851108BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B80B0D27A22456C930DE095960B1759 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F771E8E298ABE926A990197C12985404 /* Info.plist */,
+				A27B02ECBF15469682E813BC11D957F7 /* MMPasswordKeyBoard.modulemap */,
+				F3153169EBEF6127A61CE7A7BC97ED61 /* MMPasswordKeyBoard.xcconfig */,
+				605F78ABAE763884D27F24E878938F62 /* MMPasswordKeyBoard-dummy.m */,
+				62A52724205338EDF4F00AB7825B2CD4 /* MMPasswordKeyBoard-prefix.pch */,
+				651A6379B67FF8366DB4F1A52C20B3C1 /* MMPasswordKeyBoard-umbrella.h */,
+				9051E89D056E969667AA88D7E55958E0 /* ResourceBundle-MMPasswordKeyBoard-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMPasswordKeyBoard";
+			sourceTree = "<group>";
+		};
+		356146E252A29CA7F13FC3A3C47C9652 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				326C155DE8B9AE79A94947DA78246DDB /* PwdKB.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5C0650DAB2653A2F9C20E8DF4DC5E3DB /* MMPasswordKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				9A2E96EC4185DCB021563DC70FC6A1B5 /* MMPassWordTextField.h */,
+				ABE711EB92AF10ED8F3F23DDF36BCA4D /* MMPassWordTextField.m */,
+				A7DF2B43A5758479713E4CDC2810FC56 /* UIImage+UPTImage.h */,
+				D2D3299BC547B7462D3E44C23F456DAB /* UIImage+UPTImage.m */,
+				28F489ECFB5134AC7D0B55D5F20C7E20 /* UPPLineView.h */,
+				88D71F51EA487DFB6BDE4C0787E6DADE /* UPPLineView.m */,
+				81E1CE685F76359B25F975A457F8D571 /* UPTKeyboard.h */,
+				133D351789F494AFCF0117B24F18008F /* UPTKeyboard.m */,
+				F8488800D5B93E87CED503CA24D4F6C8 /* Pod */,
+				356146E252A29CA7F13FC3A3C47C9652 /* Resources */,
+				1B80B0D27A22456C930DE095960B1759 /* Support Files */,
+			);
+			name = MMPasswordKeyBoard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B7B15B172F133B522DEBB40766E0FE9C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9133E02FC457D948327A446581BDCD28 /* Products */,
+				A6F51AFBA3763AF717E30341FC9132BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9133E02FC457D948327A446581BDCD28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525A88C0DC6A78DDFE559D7767469185 /* MMPasswordKeyBoard.bundle */,
+				8BF199D60275467BC043553816051A41 /* MMPasswordKeyBoard.framework */,
+				C2DD2F6BC25361E31EC5F2A427E0D6E0 /* Pods_MMPasswordKeyBoard_Example.framework */,
+				D7748E15F5FA3AD99526890FE4690DA3 /* Pods_MMPasswordKeyBoard_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		931F56662DD0A207E66A7AF81B6CAB79 /* Pods-MMPasswordKeyBoard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6B95866FDF2FFA8D3FE75B818218C0D4 /* Info.plist */,
+				FD5E7202E2767208E797E600235521C3 /* Pods-MMPasswordKeyBoard_Example.modulemap */,
+				C64F471F6AB9766FC7C2DC72C6771D82 /* Pods-MMPasswordKeyBoard_Example-acknowledgements.markdown */,
+				98CDBD3DC8EC6BA7E6A744B6E07603AD /* Pods-MMPasswordKeyBoard_Example-acknowledgements.plist */,
+				B675CA39FB9FE580D00FEDD859C618E6 /* Pods-MMPasswordKeyBoard_Example-dummy.m */,
+				506256B601E66D1788DD7400AEACAE18 /* Pods-MMPasswordKeyBoard_Example-frameworks.sh */,
+				967A8FC786B22212E642FEF95D15D01D /* Pods-MMPasswordKeyBoard_Example-resources.sh */,
+				56D59B5396D74CF16051E334E3A48271 /* Pods-MMPasswordKeyBoard_Example-umbrella.h */,
+				9983D02D9AAD95691007050FFD3E6A6B /* Pods-MMPasswordKeyBoard_Example.debug.xcconfig */,
+				342C3240958FC44820436C6C3E2F4306 /* Pods-MMPasswordKeyBoard_Example.release.xcconfig */,
+			);
+			name = "Pods-MMPasswordKeyBoard_Example";
+			path = "Target Support Files/Pods-MMPasswordKeyBoard_Example";
+			sourceTree = "<group>";
+		};
+		A6F51AFBA3763AF717E30341FC9132BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				931F56662DD0A207E66A7AF81B6CAB79 /* Pods-MMPasswordKeyBoard_Example */,
+				AF4E2214DF3841F6E4FE4EE447CA6E56 /* Pods-MMPasswordKeyBoard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AF4E2214DF3841F6E4FE4EE447CA6E56 /* Pods-MMPasswordKeyBoard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5A5BCBA718AABE12B42D91BBAE2ADA80 /* Info.plist */,
+				DF47ADD3A35F4DD02279F7E36F49DF48 /* Pods-MMPasswordKeyBoard_Tests.modulemap */,
+				42AC105778012B509A08E977AAB44E47 /* Pods-MMPasswordKeyBoard_Tests-acknowledgements.markdown */,
+				DE7BAE36AFA8F1BD1EFA5372A80741C0 /* Pods-MMPasswordKeyBoard_Tests-acknowledgements.plist */,
+				068CC4D2922E8DA73330DFD8CEB3F1F8 /* Pods-MMPasswordKeyBoard_Tests-dummy.m */,
+				F4290BD716B6B4D45252BE0AB5B34A8C /* Pods-MMPasswordKeyBoard_Tests-frameworks.sh */,
+				E439C5F6ECB269F5D1A7FE364A8E232B /* Pods-MMPasswordKeyBoard_Tests-resources.sh */,
+				8761DC948306AEB5207B30BA5365645E /* Pods-MMPasswordKeyBoard_Tests-umbrella.h */,
+				4E088961CFDC9287FF6956032716547E /* Pods-MMPasswordKeyBoard_Tests.debug.xcconfig */,
+				0F80E591513F17ABEE09FCAFDA8EBFD5 /* Pods-MMPasswordKeyBoard_Tests.release.xcconfig */,
+			);
+			name = "Pods-MMPasswordKeyBoard_Tests";
+			path = "Target Support Files/Pods-MMPasswordKeyBoard_Tests";
+			sourceTree = "<group>";
+		};
+		B7B15B172F133B522DEBB40766E0FE9C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C0650DAB2653A2F9C20E8DF4DC5E3DB /* MMPasswordKeyBoard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8488800D5B93E87CED503CA24D4F6C8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DF0EB25593EDDAFD5CE1D9665A4C349A /* LICENSE */,
+				8A5CD6F16A93130C4248AD7C27FDE119 /* MMPasswordKeyBoard.podspec */,
+				891CB6412EE5490A4DF08E306CFD8E66 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		930D85853E38EFA335094CF1BD57AB47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1487176CC3E969E1C1AEB0E97994562 /* MMPasswordKeyBoard-umbrella.h in Headers */,
+				696A184BA134D5769331DD95D45FB1B5 /* MMPassWordTextField.h in Headers */,
+				0C17BC08934C16E196FCEE59C21FD952 /* UIImage+UPTImage.h in Headers */,
+				B640051748D864B1223DEDBA570B2741 /* UPPLineView.h in Headers */,
+				3ACED91A8C1F33397EADC72FF1F56CB0 /* UPTKeyboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49D6DCE22685EE44342AF0B11D80A29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EDBB6BC0D24AC018617DC388449004 /* Pods-MMPasswordKeyBoard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79EF98CB6D0E92CCCC1EB4A1D254CBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB104DDAFEAF56A7DC8F91453072B5CA /* Pods-MMPasswordKeyBoard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F55264AEE2D1D1CBD590BDB50728AD6 /* MMPasswordKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A720A2E51AF202D3AF0BC8A1657ECC1 /* Build configuration list for PBXNativeTarget "MMPasswordKeyBoard" */;
+			buildPhases = (
+				926BD29D9C2CF1D8A4BA471BE32E85DE /* Sources */,
+				5572772ADC90AAE4E234BE0852D47330 /* Frameworks */,
+				54971015287FF5F4D1C24D0253FC32D5 /* Resources */,
+				930D85853E38EFA335094CF1BD57AB47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90E8AE44041953AAA3C021FAE20E6062 /* PBXTargetDependency */,
+			);
+			name = MMPasswordKeyBoard;
+			productName = MMPasswordKeyBoard;
+			productReference = 8BF199D60275467BC043553816051A41 /* MMPasswordKeyBoard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F337BE8800D93165C3B460D5355BC00 /* MMPasswordKeyBoard-MMPasswordKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8328110F75A5D0AFE69B9BA0C3981F /* Build configuration list for PBXNativeTarget "MMPasswordKeyBoard-MMPasswordKeyBoard" */;
+			buildPhases = (
+				CBD81E13751DDD405044BE83A830C21A /* Sources */,
+				8D6DE0DE592E0BD3E621639851108BA0 /* Frameworks */,
+				AFF289004A0CCD090285EFF5AE91738A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MMPasswordKeyBoard-MMPasswordKeyBoard";
+			productName = "MMPasswordKeyBoard-MMPasswordKeyBoard";
+			productReference = 525A88C0DC6A78DDFE559D7767469185 /* MMPasswordKeyBoard.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DCA442DC938D512113F6484EFF2F9C42 /* Pods-MMPasswordKeyBoard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA843F93E50D6536D4A10AC407791963 /* Build configuration list for PBXNativeTarget "Pods-MMPasswordKeyBoard_Example" */;
+			buildPhases = (
+				DA6379F4075D2440304E54C18C88190B /* Sources */,
+				2310FC3D479596F2164DD96FA183999E /* Frameworks */,
+				C79EF98CB6D0E92CCCC1EB4A1D254CBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D76C2FB9F925815EBA22ADB808B54D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MMPasswordKeyBoard_Example";
+			productName = "Pods-MMPasswordKeyBoard_Example";
+			productReference = C2DD2F6BC25361E31EC5F2A427E0D6E0 /* Pods_MMPasswordKeyBoard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F222F9FCC462ADCF644088D1DE3CC33B /* Pods-MMPasswordKeyBoard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9976A70C467A042419E3C1AA8B89A598 /* Build configuration list for PBXNativeTarget "Pods-MMPasswordKeyBoard_Tests" */;
+			buildPhases = (
+				904F0C8B98188ED5DFF873D3368926AD /* Sources */,
+				694052A43787A4C6AA2D434273F90368 /* Frameworks */,
+				B49D6DCE22685EE44342AF0B11D80A29 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37322478A2554FCD462D8103DA61FFD8 /* PBXTargetDependency */,
+			);
+			name = "Pods-MMPasswordKeyBoard_Tests";
+			productName = "Pods-MMPasswordKeyBoard_Tests";
+			productReference = D7748E15F5FA3AD99526890FE4690DA3 /* Pods_MMPasswordKeyBoard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9133E02FC457D948327A446581BDCD28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F55264AEE2D1D1CBD590BDB50728AD6 /* MMPasswordKeyBoard */,
+				3F337BE8800D93165C3B460D5355BC00 /* MMPasswordKeyBoard-MMPasswordKeyBoard */,
+				DCA442DC938D512113F6484EFF2F9C42 /* Pods-MMPasswordKeyBoard_Example */,
+				F222F9FCC462ADCF644088D1DE3CC33B /* Pods-MMPasswordKeyBoard_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54971015287FF5F4D1C24D0253FC32D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217A5ADA4B4C96FBF2570899EDA5953B /* MMPasswordKeyBoard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFF289004A0CCD090285EFF5AE91738A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA00AFF4EBF2725B828E51A07472DC5C /* PwdKB.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904F0C8B98188ED5DFF873D3368926AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD89AD8B98C5E285B583DF539E22AB1 /* Pods-MMPasswordKeyBoard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926BD29D9C2CF1D8A4BA471BE32E85DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA818B9612DBDEB1796269D043EA295B /* MMPasswordKeyBoard-dummy.m in Sources */,
+				143BE333F5724270279B3F9453B65856 /* MMPassWordTextField.m in Sources */,
+				FF68A65ADCCAA3077EF6E718C07E07AF /* UIImage+UPTImage.m in Sources */,
+				1AE0F04AFA124056E2A9AA5051EC20F9 /* UPPLineView.m in Sources */,
+				944C20F5477130383CD651177C5361E7 /* UPTKeyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD81E13751DDD405044BE83A830C21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6379F4075D2440304E54C18C88190B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04B4EECF738D0B02E2C166B64C1A697 /* Pods-MMPasswordKeyBoard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D76C2FB9F925815EBA22ADB808B54D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMPasswordKeyBoard;
+			target = 0F55264AEE2D1D1CBD590BDB50728AD6 /* MMPasswordKeyBoard */;
+			targetProxy = A0BB94F0525908E0AD353B5F9140BF3F /* PBXContainerItemProxy */;
+		};
+		37322478A2554FCD462D8103DA61FFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MMPasswordKeyBoard_Example";
+			target = DCA442DC938D512113F6484EFF2F9C42 /* Pods-MMPasswordKeyBoard_Example */;
+			targetProxy = 90DA37F93F3DADBE12F7265FFD3C30B4 /* PBXContainerItemProxy */;
+		};
+		90E8AE44041953AAA3C021FAE20E6062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MMPasswordKeyBoard-MMPasswordKeyBoard";
+			target = 3F337BE8800D93165C3B460D5355BC00 /* MMPasswordKeyBoard-MMPasswordKeyBoard */;
+			targetProxy = DCCE75171052EC205775927ABADFA2FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07FB19879C2DDAC79B8F63D35C3F36D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3153169EBEF6127A61CE7A7BC97ED61 /* MMPasswordKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MMPasswordKeyBoard";
+				INFOPLIST_FILE = "Target Support Files/MMPasswordKeyBoard/ResourceBundle-MMPasswordKeyBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MMPasswordKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1D14668F2EF88FAB85922DA76BEF2BCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E088961CFDC9287FF6956032716547E /* Pods-MMPasswordKeyBoard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPasswordKeyBoard_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPasswordKeyBoard_Tests/Pods-MMPasswordKeyBoard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AA7F7007107A41F1FA982985A774BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F80E591513F17ABEE09FCAFDA8EBFD5 /* Pods-MMPasswordKeyBoard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPasswordKeyBoard_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPasswordKeyBoard_Tests/Pods-MMPasswordKeyBoard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F85D5B6F96C969F582EE1814150017B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342C3240958FC44820436C6C3E2F4306 /* Pods-MMPasswordKeyBoard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPasswordKeyBoard_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPasswordKeyBoard_Example/Pods-MMPasswordKeyBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6769B8C654322CA0EE23AD036F1BD708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9983D02D9AAD95691007050FFD3E6A6B /* Pods-MMPasswordKeyBoard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPasswordKeyBoard_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPasswordKeyBoard_Example/Pods-MMPasswordKeyBoard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		887043FA8C7782BBF8EA93A4D61465DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3153169EBEF6127A61CE7A7BC97ED61 /* MMPasswordKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMPasswordKeyBoard/MMPasswordKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMPasswordKeyBoard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMPasswordKeyBoard/MMPasswordKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = MMPasswordKeyBoard;
+				PRODUCT_NAME = MMPasswordKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C02DE06FE5AF4F682E925FBB99C589FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3153169EBEF6127A61CE7A7BC97ED61 /* MMPasswordKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMPasswordKeyBoard/MMPasswordKeyBoard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMPasswordKeyBoard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMPasswordKeyBoard/MMPasswordKeyBoard.modulemap";
+				PRODUCT_MODULE_NAME = MMPasswordKeyBoard;
+				PRODUCT_NAME = MMPasswordKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F92E8985BEB754A58C67287354CB0B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3153169EBEF6127A61CE7A7BC97ED61 /* MMPasswordKeyBoard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MMPasswordKeyBoard";
+				INFOPLIST_FILE = "Target Support Files/MMPasswordKeyBoard/ResourceBundle-MMPasswordKeyBoard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MMPasswordKeyBoard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A720A2E51AF202D3AF0BC8A1657ECC1 /* Build configuration list for PBXNativeTarget "MMPasswordKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02DE06FE5AF4F682E925FBB99C589FC /* Debug */,
+				887043FA8C7782BBF8EA93A4D61465DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8328110F75A5D0AFE69B9BA0C3981F /* Build configuration list for PBXNativeTarget "MMPasswordKeyBoard-MMPasswordKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07FB19879C2DDAC79B8F63D35C3F36D5 /* Debug */,
+				F92E8985BEB754A58C67287354CB0B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9976A70C467A042419E3C1AA8B89A598 /* Build configuration list for PBXNativeTarget "Pods-MMPasswordKeyBoard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D14668F2EF88FAB85922DA76BEF2BCB /* Debug */,
+				3AA7F7007107A41F1FA982985A774BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA843F93E50D6536D4A10AC407791963 /* Build configuration list for PBXNativeTarget "Pods-MMPasswordKeyBoard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6769B8C654322CA0EE23AD036F1BD708 /* Debug */,
+				4F85D5B6F96C969F582EE1814150017B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MMPasswordKeyBoard (1.0.0)
+
+DEPENDENCIES:
+  - MMPasswordKeyBoard (from `../`)
+
+EXTERNAL SOURCES:
+  MMPasswordKeyBoard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMPasswordKeyBoard: 76272b943e19ecaebcc5d6744c44812b2457e33f
+
+PODFILE CHECKSUM: 09266938f1cbe72708414ca16e9628351dc5c7ab
+
+COCOAPODS: 1.5.3
