@@ -30,6 +30,9 @@
     [self.view addSubview:pwdTF];
 }
 #pragma mark- MMPassWordTextFieldDegegate
+- (void)textChanged:(NSString*)text keyboard:(id)keyboard{
+    NSLog(@"%@",text);
+}
 - (void)getKeyBoardData:(NSString *)keyBoardData{
     NSLog(@"%@",keyBoardData);
 }

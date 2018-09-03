@@ -87,11 +87,23 @@
         NSLog(@"输入完毕");
         [self.ptfDelegate getKeyBoardData:[self.keyboard getPayData]];
     }
+    //拼接密码
+    NSString *curStr = @"";
+    for (NSString *tpStr in _fakePWDArray) {
+        curStr = [curStr stringByAppendingString:tpStr];
+    }
+    [self.ptfDelegate textChanged:curStr keyboard:keyboard];
 }
 - (void)deleteClickKeyboard:(id)keyboard {
     [self.fakePWDArray removeLastObject];
     [self setDotView];
     [self.ptfDelegate deleteClickKeyboard:keyboard];
+    //拼接密码
+    NSString *curStr = @"";
+    for (NSString *tpStr in _fakePWDArray) {
+        curStr = [curStr stringByAppendingString:tpStr];
+    }
+    [self.ptfDelegate textChanged:curStr keyboard:keyboard];
 }
 //MARK: --------------------------- 懒加载 --------------------------
 - (NSMutableArray *)dotArray{

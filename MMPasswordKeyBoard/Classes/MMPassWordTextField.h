@@ -10,6 +10,7 @@
 
 @protocol MMPassWordTextFieldDegegate <NSObject>
 - (void)getKeyBoardData:(NSString *)keyBoardData;
+- (void)textChanged:(NSString*)text keyboard:(id)keyboard;
 - (void)doneClick:(NSString *)resultStr;
 - (void)deleteClickKeyboard:(id)keyboard;
 @end

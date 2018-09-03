@@ -117,7 +117,8 @@ static CGFloat displayWidth() {
         [self encryptText:singalPin];
         
         //发送给UI
-        NSString *text = kSecret;
+//        NSString *text = kSecret;
+        NSString *text = [NSString stringWithFormat:@"%ld", (unsigned long)btn.tag];
         [self.delegate textChanged:text keyboard:self];
     }
 }
